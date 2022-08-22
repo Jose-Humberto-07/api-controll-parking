@@ -33,7 +33,7 @@ public class ParkingSpotModel implements Serializable{
 	@Column(nullable = false)
 	private LocalDateTime registrationDate;
 	@Column(nullable = false, length = 130)
-	private String responsibibleName;
+	private String responsibleName;
 	@Column(nullable = false, length = 30)
 	private String apartment;
 	@Column(nullable = false, length = 30)
@@ -81,10 +81,10 @@ public class ParkingSpotModel implements Serializable{
 		this.registrationDate = registrationDate;
 	}
 	public String getResponsibibleName() {
-		return responsibibleName;
+		return responsibleName;
 	}
-	public void setResponsibibleName(String responsibibleName) {
-		this.responsibibleName = responsibibleName;
+	public void setResponsibibleName(String responsibleName) {
+		this.responsibleName = responsibleName;
 	}
 	public String getApartment() {
 		return apartment;
